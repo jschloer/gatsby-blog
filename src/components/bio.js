@@ -38,11 +38,15 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> coder, blogger, tinkerer,
-              father. Not in that order.
-              {` `}
+              Written by <strong>{author}</strong>
+              <br />
+              <code>
+                ['developer', 'blogger', 'tinkerer', 'father', 'husband',
+                'person'].sort(() => -Math.floor(Math.random()*2)){" "}
+              </code>
+              <br />
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow me on Twitter
+                Follow me on Twitter
               </a>
             </p>
           </div>
